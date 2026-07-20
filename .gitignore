@@ -24,3 +24,6 @@ paper/*.fdb_latexmk
 _wtest.txt
 _*.png
 *.tmp
+
+decision_log.md
+submission_checklist.md
