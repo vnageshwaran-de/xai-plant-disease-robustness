@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software or paper, please cite it as below."
+title: "How Reliable Is Explainable AI for Plant Disease Recognition? A Robustness Evaluation under Real-World Image Transformations"
+version: 1.0.0
+date-released: "2026-07-20"
+license: MIT
+repository-code: "https://github.com/vnageshwaran-de/xai-plant-disease-robustness"
+keywords:
+  - explainable AI
+  - robustness
+  - class activation mapping
+  - plant disease recognition
+  - trustworthy machine learning
+authors:
+  - family-names: Pham
+    given-names: Tien Phuc
+    affiliation: "FPT University, Can Tho, Vietnam"
+  - family-names: Nageshwaran
+    given-names: Vinoth
+    affiliation: "University of the Cumberlands, Williamsburg, KY, USA"
+  - family-names: Quan
+    given-names: Thanh Tho
+    affiliation: "Ho Chi Minh City University of Technology (HCMUT), VNU-HCM, Vietnam"
+  - family-names: Duong
+    given-names: Phu Bao
+    affiliation: "Ho Chi Minh City University of Technology (HCMUT), VNU-HCM, Vietnam"
+  - family-names: Ngo
+    given-names: Trung Tin
+    affiliation: "Ho Chi Minh City University of Technology (HCMUT), VNU-HCM, Vietnam"
+  - family-names: Nguyen
+    given-names: Huy
+    affiliation: "Ho Chi Minh City University of Technology (HCMUT), VNU-HCM, Vietnam"
+  - family-names: Duong
+    given-names: Tan Phuc
+    affiliation: "Ho Chi Minh City University of Technology (HCMUT), VNU-HCM, Vietnam"
+  - family-names: Le
+    given-names: Tran Anh Thuong
+    affiliation: "Ho Chi Minh City University of Technology (HCMUT), VNU-HCM, Vietnam"
