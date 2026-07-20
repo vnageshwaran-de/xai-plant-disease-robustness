@@ -1,0 +1,603 @@
+{
+ "n_records": 316,
+ "stability_overall": [
+  {
+   "backbone": "efficientnet_b0",
+   "method": "EigenCAM",
+   "metric": "pearson",
+   "n": 38,
+   "mean": 0.8235631986709745,
+   "ci_lo": 0.7411989011030845,
+   "ci_hi": 0.8973885896829953
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "EigenCAM",
+   "metric": "ssim",
+   "n": 38,
+   "mean": 0.8022085802799885,
+   "ci_lo": 0.7534743390032533,
+   "ci_hi": 0.8454959974161628
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "EigenCAM",
+   "metric": "iou",
+   "n": 38,
+   "mean": 0.723945560948777,
+   "ci_lo": 0.665816693955743,
+   "ci_hi": 0.7805620757543372
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM",
+   "metric": "pearson",
+   "n": 38,
+   "mean": 0.7713417384300159,
+   "ci_lo": 0.703981265035581,
+   "ci_hi": 0.8344039570197913
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM",
+   "metric": "ssim",
+   "n": 38,
+   "mean": 0.7875570096800741,
+   "ci_lo": 0.7575932786631986,
+   "ci_hi": 0.8146232195714045
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM",
+   "metric": "iou",
+   "n": 38,
+   "mean": 0.6039686394514965,
+   "ci_lo": 0.5509276434022411,
+   "ci_hi": 0.6582203611936978
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM++",
+   "metric": "pearson",
+   "n": 38,
+   "mean": 0.871674701967823,
+   "ci_lo": 0.8323120595683619,
+   "ci_hi": 0.9073505495588678
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM++",
+   "metric": "ssim",
+   "n": 38,
+   "mean": 0.7956672032040689,
+   "ci_lo": 0.7717864632779657,
+   "ci_hi": 0.8189418040124223
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM++",
+   "metric": "iou",
+   "n": 38,
+   "mean": 0.6888691030103778,
+   "ci_lo": 0.6428505501670566,
+   "ci_hi": 0.7313525163222012
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "LayerCAM",
+   "metric": "pearson",
+   "n": 38,
+   "mean": 0.8728133507025332,
+   "ci_lo": 0.8313434152429304,
+   "ci_hi": 0.9076653189091917
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "LayerCAM",
+   "metric": "ssim",
+   "n": 38,
+   "mean": 0.7985874334835485,
+   "ci_lo": 0.7755227141380853,
+   "ci_hi": 0.8207929327611675
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "LayerCAM",
+   "metric": "iou",
+   "n": 38,
+   "mean": 0.6901393202360557,
+   "ci_lo": 0.6417021578654054,
+   "ci_hi": 0.7342645218062769
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "ScoreCAM",
+   "metric": "pearson",
+   "n": 12,
+   "mean": 0.7610157104864385,
+   "ci_lo": 0.675363080997532,
+   "ci_hi": 0.8419707468964553
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "ScoreCAM",
+   "metric": "ssim",
+   "n": 12,
+   "mean": 0.7273175241527802,
+   "ci_lo": 0.6748751045829027,
+   "ci_hi": 0.7839146790917038
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "ScoreCAM",
+   "metric": "iou",
+   "n": 12,
+   "mean": 0.595545450474211,
+   "ci_lo": 0.5021836648734125,
+   "ci_hi": 0.6905110109686388
+  },
+  {
+   "backbone": "resnet50",
+   "method": "EigenCAM",
+   "metric": "pearson",
+   "n": 38,
+   "mean": 0.8725779612322031,
+   "ci_lo": 0.8289344786397024,
+   "ci_hi": 0.9097602419685266
+  },
+  {
+   "backbone": "resnet50",
+   "method": "EigenCAM",
+   "metric": "ssim",
+   "n": 38,
+   "mean": 0.7888719167355779,
+   "ci_lo": 0.7576906625427356,
+   "ci_hi": 0.8185883868389489
+  },
+  {
+   "backbone": "resnet50",
+   "method": "EigenCAM",
+   "metric": "iou",
+   "n": 38,
+   "mean": 0.697419405735435,
+   "ci_lo": 0.6547809689266363,
+   "ci_hi": 0.7333113066657494
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM",
+   "metric": "pearson",
+   "n": 38,
+   "mean": 0.7694276273266009,
+   "ci_lo": 0.7222068758159816,
+   "ci_hi": 0.8146036633754442
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM",
+   "metric": "ssim",
+   "n": 38,
+   "mean": 0.6729597342275693,
+   "ci_lo": 0.6439562765032429,
+   "ci_hi": 0.7008255617130291
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM",
+   "metric": "iou",
+   "n": 38,
+   "mean": 0.5607708681169715,
+   "ci_lo": 0.5183504333513702,
+   "ci_hi": 0.6020265856850939
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM++",
+   "metric": "pearson",
+   "n": 38,
+   "mean": 0.8787339291569228,
+   "ci_lo": 0.8528637031443812,
+   "ci_hi": 0.8997322373298292
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM++",
+   "metric": "ssim",
+   "n": 38,
+   "mean": 0.8059928721525004,
+   "ci_lo": 0.7894218822838067,
+   "ci_hi": 0.8212325119827122
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM++",
+   "metric": "iou",
+   "n": 38,
+   "mean": 0.6321566428959411,
+   "ci_lo": 0.5917448447548985,
+   "ci_hi": 0.6706898764050419
+  },
+  {
+   "backbone": "resnet50",
+   "method": "LayerCAM",
+   "metric": "pearson",
+   "n": 38,
+   "mean": 0.8824792980216711,
+   "ci_lo": 0.856944928125163,
+   "ci_hi": 0.9025363659013526
+  },
+  {
+   "backbone": "resnet50",
+   "method": "LayerCAM",
+   "metric": "ssim",
+   "n": 38,
+   "mean": 0.8092513600651319,
+   "ci_lo": 0.792878722178984,
+   "ci_hi": 0.8240722146115762
+  },
+  {
+   "backbone": "resnet50",
+   "method": "LayerCAM",
+   "metric": "iou",
+   "n": 38,
+   "mean": 0.6374772320956678,
+   "ci_lo": 0.5993443164811815,
+   "ci_hi": 0.6739504384214019
+  }
+ ],
+ "faithfulness": [
+  {
+   "backbone": "efficientnet_b0",
+   "method": "EigenCAM",
+   "metric": "deletion_auc",
+   "n": 38,
+   "mean": 0.2124158154092009,
+   "ci_lo": 0.16816558700441084,
+   "ci_hi": 0.2606997501388794
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "EigenCAM",
+   "metric": "insertion_auc",
+   "n": 38,
+   "mean": 0.6109603822023736,
+   "ci_lo": 0.5488856660022421,
+   "ci_hi": 0.6697331031996773
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "EigenCAM",
+   "metric": "average_drop",
+   "n": 38,
+   "mean": 66.47058107222783,
+   "ci_lo": 54.772897921430285,
+   "ci_hi": 76.98253652173928
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM",
+   "metric": "deletion_auc",
+   "n": 38,
+   "mean": 0.1947925702620667,
+   "ci_lo": 0.15677967788441158,
+   "ci_hi": 0.23363509637472243
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM",
+   "metric": "insertion_auc",
+   "n": 38,
+   "mean": 0.6257745707884934,
+   "ci_lo": 0.5627038971759668,
+   "ci_hi": 0.6879239386315976
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM",
+   "metric": "average_drop",
+   "n": 38,
+   "mean": 19.85713213705384,
+   "ci_lo": 11.641859663347361,
+   "ci_hi": 29.061268687769584
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM++",
+   "metric": "deletion_auc",
+   "n": 38,
+   "mean": 0.1867914572586654,
+   "ci_lo": 0.14750960769308818,
+   "ci_hi": 0.22635757988311928
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM++",
+   "metric": "insertion_auc",
+   "n": 38,
+   "mean": 0.6208614796068632,
+   "ci_lo": 0.561291077080443,
+   "ci_hi": 0.6775686662528734
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "GradCAM++",
+   "metric": "average_drop",
+   "n": 38,
+   "mean": 45.59567551999691,
+   "ci_lo": 34.16003433173175,
+   "ci_hi": 57.010115988060605
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "LayerCAM",
+   "metric": "deletion_auc",
+   "n": 38,
+   "mean": 0.18343945429568476,
+   "ci_lo": 0.14605094048939463,
+   "ci_hi": 0.22274215373133782
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "LayerCAM",
+   "metric": "insertion_auc",
+   "n": 38,
+   "mean": 0.6215619186223769,
+   "ci_lo": 0.5624524853004257,
+   "ci_hi": 0.6797890343736646
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "LayerCAM",
+   "metric": "average_drop",
+   "n": 38,
+   "mean": 45.11907984518598,
+   "ci_lo": 33.456204771630745,
+   "ci_hi": 57.423300138498476
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "ScoreCAM",
+   "metric": "deletion_auc",
+   "n": 12,
+   "mean": 0.21404750836882158,
+   "ci_lo": 0.13110024925397737,
+   "ci_hi": 0.30740348582676835
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "ScoreCAM",
+   "metric": "insertion_auc",
+   "n": 12,
+   "mean": 0.7012498902855442,
+   "ci_lo": 0.6157347986156916,
+   "ci_hi": 0.769939628902648
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method": "ScoreCAM",
+   "metric": "average_drop",
+   "n": 12,
+   "mean": 37.913933624632584,
+   "ci_lo": 17.70066677320736,
+   "ci_hi": 58.42555901129616
+  },
+  {
+   "backbone": "resnet50",
+   "method": "EigenCAM",
+   "metric": "deletion_auc",
+   "n": 38,
+   "mean": 0.3992684741194784,
+   "ci_lo": 0.3338425840018308,
+   "ci_hi": 0.46587572713687936
+  },
+  {
+   "backbone": "resnet50",
+   "method": "EigenCAM",
+   "metric": "insertion_auc",
+   "n": 38,
+   "mean": 0.561748635063386,
+   "ci_lo": 0.503034549370892,
+   "ci_hi": 0.6198889731350153
+  },
+  {
+   "backbone": "resnet50",
+   "method": "EigenCAM",
+   "metric": "average_drop",
+   "n": 38,
+   "mean": 57.81126001845107,
+   "ci_lo": 47.144078788511095,
+   "ci_hi": 68.6015711772266
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM",
+   "metric": "deletion_auc",
+   "n": 38,
+   "mean": 0.36325271726119884,
+   "ci_lo": 0.3079165247320266,
+   "ci_hi": 0.422810180379843
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM",
+   "metric": "insertion_auc",
+   "n": 38,
+   "mean": 0.5592858609305327,
+   "ci_lo": 0.4988433955625095,
+   "ci_hi": 0.6217926853181761
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM",
+   "metric": "average_drop",
+   "n": 38,
+   "mean": 35.63536134195641,
+   "ci_lo": 25.780386351517652,
+   "ci_hi": 47.09037755014044
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM++",
+   "metric": "deletion_auc",
+   "n": 38,
+   "mean": 0.3932886217556598,
+   "ci_lo": 0.3329522200621688,
+   "ci_hi": 0.4563301968488811
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM++",
+   "metric": "insertion_auc",
+   "n": 38,
+   "mean": 0.5581552186200355,
+   "ci_lo": 0.4929256241229059,
+   "ci_hi": 0.6207691560556355
+  },
+  {
+   "backbone": "resnet50",
+   "method": "GradCAM++",
+   "metric": "average_drop",
+   "n": 38,
+   "mean": 36.89533616996726,
+   "ci_lo": 26.592358176405426,
+   "ci_hi": 47.89235174672553
+  },
+  {
+   "backbone": "resnet50",
+   "method": "LayerCAM",
+   "metric": "deletion_auc",
+   "n": 38,
+   "mean": 0.3913163770583519,
+   "ci_lo": 0.3283307119485167,
+   "ci_hi": 0.4597819821522236
+  },
+  {
+   "backbone": "resnet50",
+   "method": "LayerCAM",
+   "metric": "insertion_auc",
+   "n": 38,
+   "mean": 0.5592475260438733,
+   "ci_lo": 0.4962754083478703,
+   "ci_hi": 0.6197639107881197
+  },
+  {
+   "backbone": "resnet50",
+   "method": "LayerCAM",
+   "metric": "average_drop",
+   "n": 38,
+   "mean": 36.91868637370359,
+   "ci_lo": 26.252921723650715,
+   "ci_hi": 47.62831241302772
+  }
+ ],
+ "holm": [
+  {
+   "backbone": "resnet50",
+   "method_a": "GradCAM",
+   "method_b": "GradCAM++",
+   "mean_diff_pearson": -0.10930630183032197,
+   "p_raw": 7.920032658148557e-06,
+   "p_holm": 2.376009797444567e-05,
+   "sig_holm_0.05": true
+  },
+  {
+   "backbone": "resnet50",
+   "method_a": "GradCAM",
+   "method_b": "EigenCAM",
+   "mean_diff_pearson": -0.10315033390560224,
+   "p_raw": 5.48507523490116e-06,
+   "p_holm": 2.272685378557071e-05,
+   "sig_holm_0.05": true
+  },
+  {
+   "backbone": "resnet50",
+   "method_a": "GradCAM",
+   "method_b": "LayerCAM",
+   "mean_diff_pearson": -0.11305167069507027,
+   "p_raw": 4.545370757114142e-06,
+   "p_holm": 2.272685378557071e-05,
+   "sig_holm_0.05": true
+  },
+  {
+   "backbone": "resnet50",
+   "method_a": "GradCAM++",
+   "method_b": "EigenCAM",
+   "mean_diff_pearson": 0.00615596792471973,
+   "p_raw": 0.37275207138009137,
+   "p_holm": 0.7455041427601827,
+   "sig_holm_0.05": false
+  },
+  {
+   "backbone": "resnet50",
+   "method_a": "GradCAM++",
+   "method_b": "LayerCAM",
+   "mean_diff_pearson": -0.0037453688647482997,
+   "p_raw": 1.7280399333685637e-08,
+   "p_holm": 1.0368239600211382e-07,
+   "sig_holm_0.05": true
+  },
+  {
+   "backbone": "resnet50",
+   "method_a": "EigenCAM",
+   "method_b": "LayerCAM",
+   "mean_diff_pearson": -0.00990133678946803,
+   "p_raw": 0.4727372199558886,
+   "p_holm": 0.7455041427601827,
+   "sig_holm_0.05": false
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method_a": "GradCAM",
+   "method_b": "GradCAM++",
+   "mean_diff_pearson": -0.10033296353780718,
+   "p_raw": 0.0026745298237074167,
+   "p_holm": 0.014427166694076732,
+   "sig_holm_0.05": true
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method_a": "GradCAM",
+   "method_b": "EigenCAM",
+   "mean_diff_pearson": -0.05222146024095864,
+   "p_raw": 0.05304903067735722,
+   "p_holm": 0.15914709203207167,
+   "sig_holm_0.05": false
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method_a": "GradCAM",
+   "method_b": "LayerCAM",
+   "mean_diff_pearson": -0.10147161227251733,
+   "p_raw": 0.002404527782346122,
+   "p_holm": 0.014427166694076732,
+   "sig_holm_0.05": true
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method_a": "GradCAM++",
+   "method_b": "EigenCAM",
+   "mean_diff_pearson": 0.048111503296848546,
+   "p_raw": 0.9657047467626398,
+   "p_holm": 1.0,
+   "sig_holm_0.05": false
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method_a": "GradCAM++",
+   "method_b": "LayerCAM",
+   "mean_diff_pearson": -0.001138648734710146,
+   "p_raw": 0.003653016763564665,
+   "p_holm": 0.01461206705425866,
+   "sig_holm_0.05": true
+  },
+  {
+   "backbone": "efficientnet_b0",
+   "method_a": "EigenCAM",
+   "method_b": "LayerCAM",
+   "mean_diff_pearson": -0.04925015203155869,
+   "p_raw": 1.0,
+   "p_holm": 1.0,
+   "sig_holm_0.05": false
+  }
+ ]
+}

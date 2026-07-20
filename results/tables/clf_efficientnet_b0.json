@@ -1,0 +1,10 @@
+{
+ "backbone": "efficientnet_b0",
+ "n_train": 1330,
+ "n_test": 950,
+ "n_classes": 38,
+ "accuracy": 0.8831578947368421,
+ "macro_f1": 0.8821348519292497,
+ "img_size": 160,
+ "feat_dim": 1280
+}

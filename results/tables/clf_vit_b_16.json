@@ -1,0 +1,10 @@
+{
+ "backbone": "vit_b_16",
+ "n_train": 1330,
+ "n_test": 950,
+ "n_classes": 38,
+ "accuracy": 0.9189473684210526,
+ "macro_f1": 0.9181253443941295,
+ "img_size": 160,
+ "feat_dim": 768
+}

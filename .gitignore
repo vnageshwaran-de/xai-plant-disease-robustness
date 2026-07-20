@@ -1,0 +1,26 @@
+# --- Data & large regenerable artifacts ---
+data/
+*.zip
+# Trained weights (regenerate with code/02_train.py, code/09_finetune.py or the Colab notebook)
+*.pt
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# --- LaTeX build artifacts (keep .tex, .bbl, .pdf, .cls, .bst, .bib) ---
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+
+# --- OS / editor / scratch ---
+.DS_Store
+_wtest.txt
+_*.png
+*.tmp

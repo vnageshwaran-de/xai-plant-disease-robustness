@@ -1,0 +1,16 @@
+# Exact versions used to produce every number in the paper (CPU-only).
+# Install torch/torchvision from the CPU index:
+#   pip install torch==2.13.0 torchvision==0.28.0 --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements.txt
+torch==2.13.0
+torchvision==0.28.0
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+scikit-image==0.25.2
+matplotlib==3.10.9
+pandas==2.3.3
+Pillow==12.2.0
+grad-cam==1.5.5
+datasets==5.0.0
+huggingface_hub==1.24.0

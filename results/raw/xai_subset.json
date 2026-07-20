@@ -1,0 +1,196 @@
+{
+ "seed": 42,
+ "n_per_class": 1,
+ "images": [
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Apple___Apple_scab/1547f817-6a4d-4cbc-8ce0-7dff293562ee___FREC_Scab 3194.JPG",
+   "label": 0,
+   "class": "Apple___Apple_scab"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Apple___Black_rot/f45e8b2b-c220-42d2-9828-a39d46db0ca9___JR_FrgE.S 8751.JPG",
+   "label": 1,
+   "class": "Apple___Black_rot"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Apple___Cedar_apple_rust/38395894-268c-4ae1-827d-679f97e1a262___FREC_C.Rust 3998.JPG",
+   "label": 2,
+   "class": "Apple___Cedar_apple_rust"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Apple___healthy/28682886-ee9f-4698-854f-8f196c01b67a___RS_HL 6101.JPG",
+   "label": 3,
+   "class": "Apple___healthy"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Blueberry___healthy/b053601d-88fb-4475-b477-7af8548d36a8___RS_HL 2670.JPG",
+   "label": 4,
+   "class": "Blueberry___healthy"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Cherry_(including_sour)___Powdery_mildew/55477ea0-03ae-4ddd-afa5-01b0a640533d___FREC_Pwd.M 0304.JPG",
+   "label": 5,
+   "class": "Cherry_(including_sour)___Powdery_mildew"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Cherry_(including_sour)___healthy/10d6609b-e358-456c-801d-942c657ed53e___JR_HL 9482.JPG",
+   "label": 6,
+   "class": "Cherry_(including_sour)___healthy"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot/b0e09c66-6c79-46d4-9eae-26a2870e9f26___RS_GLSp 9270.JPG",
+   "label": 7,
+   "class": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Corn_(maize)___Common_rust_/RS_Rust 2051.JPG",
+   "label": 8,
+   "class": "Corn_(maize)___Common_rust_"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Corn_(maize)___Northern_Leaf_Blight/0118e276-ee7b-4fed-961d-057590ae9f7f___RS_NLB 4666 copy 2.jpg",
+   "label": 9,
+   "class": "Corn_(maize)___Northern_Leaf_Blight"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Corn_(maize)___healthy/29e8bca1-adfb-4f65-ad4d-f412fd3f887a___R.S_HL 7997 copy 2.jpg",
+   "label": 10,
+   "class": "Corn_(maize)___healthy"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Grape___Black_rot/10d55a2e-3fa8-4823-bb74-714c5ff225b0___FAM_B.Rot 3001.JPG",
+   "label": 11,
+   "class": "Grape___Black_rot"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Grape___Esca_(Black_Measles)/3b8f1006-2bc9-429e-8120-d697632c6642___FAM_B.Msls 3960.JPG",
+   "label": 12,
+   "class": "Grape___Esca_(Black_Measles)"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Grape___Leaf_blight_(Isariopsis_Leaf_Spot)/3a78c29d-db29-4d2e-af06-34a9ba025d60___FAM_L.Blight 1479.JPG",
+   "label": 13,
+   "class": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Grape___healthy/5a165993-9c98-476f-a818-0145dd33f18e___Mt.N.V_HL 8932.JPG",
+   "label": 14,
+   "class": "Grape___healthy"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Orange___Haunglongbing_(Citrus_greening)/7ac4603b-5fbf-4a9c-8981-af473e6028c6___UF.Citrus_HLB_Lab 9696.JPG",
+   "label": 15,
+   "class": "Orange___Haunglongbing_(Citrus_greening)"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Peach___Bacterial_spot/370bcf52-9f80-463b-b272-f73dfe711e54___Rutg._Bact.S 1253.JPG",
+   "label": 16,
+   "class": "Peach___Bacterial_spot"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Peach___healthy/52141a75-629d-42be-be02-8ab0ba5be054___Rutg._HL 3722.JPG",
+   "label": 17,
+   "class": "Peach___healthy"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Pepper,_bell___Bacterial_spot/26ca895f-8155-4d26-a0ac-7e04a7487832___NREC_B.Spot 9222.JPG",
+   "label": 18,
+   "class": "Pepper,_bell___Bacterial_spot"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Pepper,_bell___healthy/447aa7fa-b251-4687-a25d-bf314eaf3f7e___JR_HL 8063.JPG",
+   "label": 19,
+   "class": "Pepper,_bell___healthy"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Potato___Early_blight/654aaf22-e23a-441d-ad57-914843a36c64___RS_Early.B 7924.JPG",
+   "label": 20,
+   "class": "Potato___Early_blight"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Potato___Late_blight/40285dce-33de-4a59-82f4-2eb1d6d38469___RS_LB 4929.JPG",
+   "label": 21,
+   "class": "Potato___Late_blight"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Potato___healthy/b925ad3e-fc49-497d-a6eb-115f0de20800___RS_HL 4170.JPG",
+   "label": 22,
+   "class": "Potato___healthy"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Raspberry___healthy/6859f761-111e-40d6-aaf2-31fb0a0f17f2___Mary_HL 6343.JPG",
+   "label": 23,
+   "class": "Raspberry___healthy"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Soybean___healthy/b844568d-8ed2-41fd-a3e9-f23637487a6b___RS_HL 3125.JPG",
+   "label": 24,
+   "class": "Soybean___healthy"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Squash___Powdery_mildew/8304d13b-a612-4267-8ec5-3603d879d99a___UMD_Powd.M 9660.JPG",
+   "label": 25,
+   "class": "Squash___Powdery_mildew"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Strawberry___Leaf_scorch/5879315d-20ab-4f95-8a38-3459fd973d5a___RS_L.Scorch 1208.JPG",
+   "label": 26,
+   "class": "Strawberry___Leaf_scorch"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Strawberry___healthy/a32f24fa-91ce-42dd-b786-5e4ed4f2d037___RS_HL 4501.JPG",
+   "label": 27,
+   "class": "Strawberry___healthy"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Tomato___Bacterial_spot/66f3960e-72ea-401f-9f74-1cbf6d2d1419___UF.GRC_BS_Lab Leaf 8978.JPG",
+   "label": 28,
+   "class": "Tomato___Bacterial_spot"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Tomato___Early_blight/51f589f7-d843-4d5d-8c5a-385951f58865___RS_Erly.B 9424.JPG",
+   "label": 29,
+   "class": "Tomato___Early_blight"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Tomato___Late_blight/e56aa8e4-cb6f-4333-816b-3494fc4fe25e___GHLB2 Leaf 8764.JPG",
+   "label": 30,
+   "class": "Tomato___Late_blight"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Tomato___Leaf_Mold/27fb67df-f3f0-4e27-9fa3-6b7ee21515f1___Crnl_L.Mold 8934.JPG",
+   "label": 31,
+   "class": "Tomato___Leaf_Mold"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Tomato___Septoria_leaf_spot/3823a859-7570-4196-abf7-64f102d55f8d___Matt.S_CG 7740.JPG",
+   "label": 32,
+   "class": "Tomato___Septoria_leaf_spot"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Tomato___Spider_mites Two-spotted_spider_mite/6a16f6d3-b936-45d6-b916-520f1031f590___Com.G_SpM_FL 8512.JPG",
+   "label": 33,
+   "class": "Tomato___Spider_mites Two-spotted_spider_mite"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Tomato___Target_Spot/7fd4f12e-758d-4965-a98f-c59bb9983e31___Com.G_TgS_FL 8211.JPG",
+   "label": 34,
+   "class": "Tomato___Target_Spot"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Tomato___Tomato_Yellow_Leaf_Curl_Virus/3bbaf1c9-cf67-44b5-95c0-486e9005b0fb___YLCV_GCREC 5182.JPG",
+   "label": 35,
+   "class": "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Tomato___Tomato_mosaic_virus/f6c12455-7dce-40b2-9d33-36bff9caa4ea___PSU_CG 2192.JPG",
+   "label": 36,
+   "class": "Tomato___Tomato_mosaic_virus"
+  },
+  {
+   "path": "/sessions/upbeat-modest-bardeen/data/pv/test/Tomato___healthy/66534b5a-a6b7-46bb-bc09-a6bba9d9a61a___GH_HL Leaf 225.2.JPG",
+   "label": 37,
+   "class": "Tomato___healthy"
+  }
+ ]
+}

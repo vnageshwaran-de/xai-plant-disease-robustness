@@ -1,0 +1,41 @@
+{
+ "backbone": "efficientnet_b0",
+ "n": 190,
+ "conditions": {
+  "identity": {
+   "prediction_consistency": 1.0,
+   "accuracy": 0.8947368421052632,
+   "macro_f1": 0.892796384901648,
+   "accuracy_drop": 0.0,
+   "macro_f1_drop": 0.0
+  },
+  "blur": {
+   "prediction_consistency": 0.531578947368421,
+   "accuracy": 0.531578947368421,
+   "macro_f1": 0.5173255760859639,
+   "accuracy_drop": 0.3631578947368421,
+   "macro_f1_drop": 0.3754708088156842
+  },
+  "rotate": {
+   "prediction_consistency": 0.7736842105263158,
+   "accuracy": 0.7789473684210526,
+   "macro_f1": 0.7661240419367354,
+   "accuracy_drop": 0.11578947368421055,
+   "macro_f1_drop": 0.1266723429649126
+  },
+  "brightness": {
+   "prediction_consistency": 0.9473684210526315,
+   "accuracy": 0.8894736842105263,
+   "macro_f1": 0.8858552266447004,
+   "accuracy_drop": 0.0052631578947368585,
+   "macro_f1_drop": 0.006941158256947633
+  },
+  "noise": {
+   "prediction_consistency": 0.6947368421052632,
+   "accuracy": 0.6842105263157895,
+   "macro_f1": 0.6807070122859598,
+   "accuracy_drop": 0.21052631578947367,
+   "macro_f1_drop": 0.21208937261568828
+  }
+ }
+}

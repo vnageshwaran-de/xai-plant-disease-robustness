@@ -1,0 +1,9 @@
+{
+ "finding": "Score-CAM fine-tuned collapse is a genuine weighting artifact, not a bug",
+ "mechanism": "library weights channels by softmax over per-channel target logits; on the confident fine-tuned model the channel-score distribution peaks",
+ "frozen_weight_entropy": 6.251, "finetuned_weight_entropy": 2.157, "max_entropy": 7.15,
+ "frozen_max_weight": 0.012, "finetuned_max_weight": 0.525,
+ "frozen_logit_mag": 4.50, "finetuned_logit_mag": 5.50,
+ "fix_minmax_weighting": {"softmax_stability_n4": 0.275, "minmax_stability_n4": 0.641},
+ "note": "targets are pre-softmax logits, so this is distinct from classic softmax-gradient saturation"
+}

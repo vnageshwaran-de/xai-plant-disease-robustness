@@ -1,0 +1,41 @@
+{
+ "backbone": "resnet50",
+ "n": 190,
+ "conditions": {
+  "identity": {
+   "prediction_consistency": 1.0,
+   "accuracy": 0.8736842105263158,
+   "macro_f1": 0.8719431153641679,
+   "accuracy_drop": 0.0,
+   "macro_f1_drop": 0.0
+  },
+  "blur": {
+   "prediction_consistency": 0.6210526315789474,
+   "accuracy": 0.6105263157894737,
+   "macro_f1": 0.5891824740222911,
+   "accuracy_drop": 0.26315789473684215,
+   "macro_f1_drop": 0.28276064134187684
+  },
+  "rotate": {
+   "prediction_consistency": 0.8315789473684211,
+   "accuracy": 0.7947368421052632,
+   "macro_f1": 0.7859715190210547,
+   "accuracy_drop": 0.07894736842105265,
+   "macro_f1_drop": 0.08597159634311324
+  },
+  "brightness": {
+   "prediction_consistency": 0.9473684210526315,
+   "accuracy": 0.8842105263157894,
+   "macro_f1": 0.8803163211057947,
+   "accuracy_drop": -0.010526315789473606,
+   "macro_f1_drop": -0.00837320574162681
+  },
+  "noise": {
+   "prediction_consistency": 0.531578947368421,
+   "accuracy": 0.5157894736842106,
+   "macro_f1": 0.5002904948166581,
+   "accuracy_drop": 0.35789473684210527,
+   "macro_f1_drop": 0.3716526205475098
+  }
+ }
+}

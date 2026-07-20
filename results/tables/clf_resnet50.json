@@ -1,0 +1,10 @@
+{
+ "backbone": "resnet50",
+ "n_train": 1330,
+ "n_test": 950,
+ "n_classes": 38,
+ "accuracy": 0.868421052631579,
+ "macro_f1": 0.8674689445149998,
+ "img_size": 160,
+ "feat_dim": 2048
+}
